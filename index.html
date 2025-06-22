@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container mt-2">
+			<div class="d-flex justify-content-between align-items-center mb-4">
+				<button id="again" class="btn btn-lg btn-primary">Again</button>
+				<p class="m-0">Choose Number from <b>1</b> - <b>20</b></p>
+			</div>
+			<h1 class="text-center mb-5 py-5">Guess My Number 😎</h1>
+
+			<!-- <div class="position-relative">
+				<div
+					class="bg-danger w-100 position-absolute"
+					style="height: 2px; top: 50%; z-index: 1 !important"></div>
+				<h1
+					class="m-0 bg-light fw-bolder text-center ms-auto me-auto"
+					style="z-index: 2 !important">
+					?
+				</h1>
+			</div> -->
+
+			<div class="position-relative" style="height: 80px">
+				<!-- Red horizontal line -->
+				<div
+					class="bg-danger w-100 position-absolute"
+					style="height: 2px; top: 60%; z-index: 1"></div>
+
+				<!-- H1 positioned above the line -->
+				<h1 id="rnd-num"
+					class="m-0 bg-light fw-bolder position-relative mx-auto"
+					style="z-index: 2; width: fit-content">
+					?
+				</h1>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-8">
+					<input
+                        id="input"
+						type="text"
+						class="input-number form-control w-50 mb-3" /> 
+                        <label id="error-in" style="color: red; visibility: hidden;"> ⚠️ enter a valid input range(1-20)</label><br><br>
+					<button id="chk-btn" class="btn btn-lg btn-primary">check</button>
+				</div>
+				<div class="col"><b>
+					<p id="guess">Start Guessing...🔢</p>
+					<p>Score : <span id="Score">0</span></p>
+					<p>highScore : <span id="highScore">20</span></p>
+                    </b>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
+
