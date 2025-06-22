@@ -2,11 +2,6 @@
 
 A fun and interactive browser-based number guessing game built using **HTML**, **CSS (via Bootstrap)**, and **Vanilla JavaScript**. The player tries to guess a randomly generated number between **1 and 20**, with real-time feedback, scoring, and a reset option.
 
----
-
-##  Demo
-
-![Guess My Number Screenshot](https://via.placeholder.com/800x400?text=Game+Preview)
 
 ---
 
