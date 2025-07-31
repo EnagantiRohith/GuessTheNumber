@@ -25,7 +25,5 @@ A fun and interactive browser-based number guessing game built using **HTML**, *
 - **CSS3 / Bootstrap 5** – Responsive styling
 - **JavaScript (ES6)** – Game logic, DOM manipulation
 
----
 
-## 📂 Project Structure
 
